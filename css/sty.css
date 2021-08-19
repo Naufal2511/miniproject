@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+/* .sudharshanBody{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(star.jpg);
+    background-size: cover;
+    background-position: center;
+ } */
+ .navbar
+ {
+     width: 85%;
+     margin: auto;
+     padding: 10px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+ .logo {
+     width: 100px;
+     cursor: pointer;
+ }
+ .navbar ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     position: relative;
+ }
+ .navbar ul li a{
+     text-decoration: solid;
+     color:darkgray;
+     text-transform:uppercase;  
+ }
+ .navbar ul li::after{
+     content: '';
+     height: 3px;
+     width: 0%;
+     background: red;    
+    position: absolute;
+    left: 0;
+    bottom: -5px;  
+    transition: 0.5s;
+ }
+ .navbar ul li:hover::after{
+     width: 100%;
+ }
+.text{
+    width: 100%;
+    /* position: relative ;
+    top:50%; 
+    transform: translateY(-50%); */
+    display : flex ;
+    justify-content: space-evenly ;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+    color: #accc78 ;
+    z-index : -1 ;
+}
+.text h1{
+    font-size: 50px ;
+    margin-top: 100px;
+}
+.text p{
+    margin: 200px auto;
+    font-weight: 80;
+    line-height: 25px;
+}
+/* .second-part{
+    margin: 70vh auto ;
+} */

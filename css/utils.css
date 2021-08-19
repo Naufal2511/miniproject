@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+/*
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+.ihsanbody{
+	background-color:antiquewhite;
+
+}
+header{
+    height: 12vh ;
+    width: 100vw ;
+    background:  #151019 ;
+    color: white ;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0 ; 
+}
+
+.logo{
+    width: 30% ;
+    height: 100% ;
+    padding: 2px ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 100% ;
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+main{
+    min-height: 76vh ;
+    max-height: 100vh ;
+    margin-bottom: 140px ;
+    /* max-height: 100vh ; */
+}
+
+ul{
+    width: 70% ;
+    height: 100% ;
+    list-style: none ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;    
+}
+
+li{
+    margin: 0 30px ;
+}
+
+a{
+    text-decoration: none ;
+    font-family: 'Montserrat', sans-serif;
+    color: white ;
+}
+
+li a:hover{
+    border-bottom: 3px solid yellow ;
+}
+
+footer{
+    /* height: 12vh ; */
+    width: 100vw ;
+    padding: 12px ;
+    margin-top: 20px ;
+    display: flex ;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    /* position: fixed;
+    bottom: 0 ; */
+    justify-content: center;
+    align-items: center;
+    background: black ;
+    color: white ;
+}
+.footer-details{
+    display: flex ;
+    justify-content: space-evenly ;
+    align-items: center ;
+    width: 100% ;
+}
+.main   {
+    margin: 0 auto ;
+}
+#naufalDetails,#ihsanDetails,#sudharshanDetails  {
+    padding: 3px ;
+    width: 30% ;
+    color: blue ;
+    font-weight: bold ;
+}
+
+#naufalDetails p ,#ihsanDetails p,#sudharshanDetails p{
+    font-size: larger ;
+    font-weight: bolder ;
+    font-family: 'Roboto', sans-serif;
+    color: black ;
+}
+/* other classes */
+.my-1   {
+    margin: 1px ;
+}
+.my-2   {
+    margin: 2px ;
+}
+.my-3   {
+    margin: 3px ;
+}
+.my-4   {
+    margin: 4px ;
+}
+.my-5   { 
+    margin: 5px ;
+}
+.my-6   {
+    margin: 6px ;
+}
+.py-1   {
+    padding : 1px ;
+}
+.py-2   {
+    padding : 2px ;
+}
+.py-3   {
+    padding : 3px ;
+}
+.py-4   {
+    padding : 4px ;
+}
+.py-5   {
+    padding : 5px ;
+}
+.py-6   {
+    padding: 6px ;
+}
+.text-center{
+    text-align:center
+}
+.caption    {
+    /* border-bottom: 2px solid black ; */
+    font-family: 'Lato', sans-serif;
+    width: 40% ;
+    margin: 0 auto ;
+}
+.btn{
+    border: none ;
+    font-size: large;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 7px ;
+    border: 1px solid rgb(80, 80, 243) ;
+    background-color: #1E90FF ;
+    width: 30% ;
+    padding: 4px ;
+    margin: 1px ;
+    color: white ;
+    cursor: pointer ;
+}
+.btn:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.errorBox{
+    text-align: center;
+    width : 60vw ;
+    height: 5vh ;
+    position: relative ;
+    padding: 9px ;
+    margin: 2px auto ;
+    border-radius: 10px ;
+    color: white ;
+    background: red ;
+    opacity: 0.8 ;
+    z-index: -1 ;
+    /* color: blue ; */
+}
+
+.successBox{
+    text-align: center;
+    width : 60vw ;
+    height: 5vh ;
+    position: relative ;
+    padding: 9px ;
+    margin: 2px auto ;
+    border-radius: 10px ;
+    color: white ;
+    background: rgb(31, 114, 15) ;
+    opacity: 0.8 ;
+    z-index: -1 ;
+}
+
+.container{
+    max-width: 1100px ;
+    margin: 0 auto ;
+    padding: 20px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.underline  {
+    border-bottom: 2px solid yellow ;
+}
+#myaccountanchor    {
+    position: relative ;
+    left: 6em ;
+    right: 4px ;
+}

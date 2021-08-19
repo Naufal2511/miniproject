@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../loginsystemproject"
+		},
+		{
+			"path": "../miniproject1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "miniproject1"
+	}
+}

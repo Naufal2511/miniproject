@@ -1,0 +1,101 @@
+@media only screen and (min-width: 1024px){
+    ul{
+        display: flex ;
+        /* display: block; */
+    }
+    nav{
+        /* display: block ; */
+        display: flex ;
+    }
+}
+
+@media only screen and (max-width: 1024px)   {
+  
+    header  {
+       width: 100vw ;
+       min-height: 20vh ;
+       /* max-height: 50vh ; */
+       padding-bottom: 20px ;
+       height: fit-content ;
+    }
+    nav {
+        flex-direction: column ;
+    }
+    ul  {
+        display: none;
+        flex-direction: column;
+    }
+
+    li  {
+        /* border-left : 1px solid white ;
+        border-right: 1px solid white;  */
+        padding: 2px ;
+        margin: 0 ;
+    }
+    #solidtriangle,#solidsquare,#astronautimg{
+        display: none ;
+    }
+        
+    .btn{
+        border-radius: 2px ;
+        width: fit-content ;
+    }
+    
+    #login  {
+        border-radius: 7px ;
+        width: 80vw ;
+    }
+    #register{
+        border-radius: 7px ;
+        width: 80vw ;
+    }
+
+    .card{
+        width: 90vw ;
+    }
+    .invisibleButton {
+        display : block ;
+    }
+}    
+
+@media  only screen and (max-width:700px) {
+    #uploadForm{
+        width: 90vw ;
+        border-radius: 6px;
+    }
+    .inputField,input{
+        width: 90%;
+        font-size: large ;
+    }
+}
+
+@media  only screen and (max-width:400px) {
+    .main,main   {
+        height: fit-content;
+        overflow: auto;
+    }
+    .inputField,input{
+        width: 90%;
+        font-size: large ;
+    }
+    .btn,#lsubbutton{
+        border-radius: 2px ;
+        width: 100px ;
+        font-size: small ;
+    }
+    #cardImg    {
+        width: 100% ;
+        height: 60% ;
+    }
+}
+
+
+@media  only screen and (max-width:1200px) {
+    .card{
+        width: 90vw ;
+    }
+    .main,main   {
+        height: fit-content;
+        overflow: auto;
+    }
+}

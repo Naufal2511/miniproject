@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&family=B612:wght@700&display=swap');
+
+
+*{
+  padding: 0;  
+  margin: 0;
+  box-sizing: border-box;
+}
+.hdn{
+visibility:hidden; 	
+} 
+.input1{
+text-align:center;
+color:darkblue;
+background-color:transparent;
+margin:10px;
+width:100px;
+height:25px;
+font-size:20px;
+}	
+body{
+	background-color:antiquewhite;
+}
+header{
+  z-index: 1;
+}
+.divmainclass{
+	width:100%;
+  color: black ;
+  background-image: url('../images/welcomebackground1.png');
+}
+.divsubclass{
+/* background-image: url('../images/blue design.png'); */
+/* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+/* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+ */
+ background-color: transparent;
+background-position: center;
+text-align:center; 
+height:50px;
+width:100%;	
+}
+
+.gridmainclass{
+  display: grid ; 
+  grid-template-columns: 1fr 2.5fr ; 
+  grid-template-rows: 5fr 1fr;
+}
+.divsubclass1{
+ background-image: url('../images/pngtree3.jpg');  
+ /* background-position: center;    */
+  background-repeat: no-repeat; 
+/*background-size: auto;*/
+/* background-color: transparent; */
+/* background: #C9CCD3;
+ background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: lighten; */
+ /* background: rgb(49, 48, 70);
+background: linear-gradient(90deg, rgb(70, 98, 109) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+background-color: white ;
+overflow:auto;  
+background-size: cover; 
+padding : 10px ; 
+height: 100%; 
+width: 100%; 
+grid-row: 1/span2;
+/* float:left;	 */
+}
+
+.divsubclass2{
+background-image: url('../images/pngtree.jpg');
+background-size: cover;
+height:100%; 
+width:100%;
+overflow:auto;
+padding: 12px ;
+/* float:left;		 */
+color: black ;
+}
+
+.divsubclass3{
+position:sticky;
+top:0;
+height:60px;
+width:80%;	
+color: black ;
+}
+.divsubclass4{
+overflow:auto;
+height: 600px;
+}
+.divsubclass5{
+background-color:#E6E6FA;
+height:100%;
+overflow:auto;
+width:100%	;
+color : black ;
+padding: 12px ;
+display: flex ; 
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.divsubclass6{
+background-color:lightcyan;
+background-image: radial-gradient(lightcyan,blue);
+color: black ;
+width:100%; 
+clear:both;	
+}
+table{
+	font-size:25px;
+	margin-left:auto; 
+	margin-right:auto;
+	width:100%;
+}
+/*
+.mytable{
+	table-layout:fixed;
+	width:100%;
+}*/
+p{
+  /* font-family:cursive;	 */
+  font-family: 'Roboto', sans-serif;
+
+}
+header{
+	position:relative;
+}
+h2{
+	color:white;
+  padding: 10px 0;
+  text-align: center;
+}
+h3{
+	/* font-family:cursive;
+   */
+   font-family: 'Baloo Bhai 2', cursive;
+}
+b{
+	font-family:verdana;
+  margin: 3px auto ;
+}
+th{
+	color:white;
+	background-color:#04AA6D;
+	background-color:#CCE7E7;
+    font-family: monospace;
+
+}
+td{
+	/* font-family:cursive; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'B612', sans-serif;
+  padding: 2px 7px;
+}
+tr:hover {
+	background-color:#CCE7E7;
+}
+caption   {
+  font-family: 'Baloo Bhai 2', cursive;
+}
+label:hover
+{
+  /* color: blue  */
+	color:white;
+	cursor:pointer;
+}
+/*
+.btn{
+	background-color:none;
+	padding: 8px 16px;
+    font-size: 16px;
+	text-align: center;
+	transtition-duration:0.4s;
+	border:2px outset blue;
+}
+.btn:hover{
+	background-color:#1E90FF ;
+	color:white;
+}
+*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#1E90FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15pxpx;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+

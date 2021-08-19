@@ -1,0 +1,159 @@
+*{
+  padding: 0;  
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+body{
+	background-color:antiquewhite;
+}
+.divmainclass{
+	width:100%;
+  color: black ;
+}
+.divsubclass{
+background-image: url('../images/blue design.png');
+background-position: center;
+text-align:center; 
+height:50px;
+width:100%;	
+}
+
+.divsubclass1{
+background-image: url('../images/pngtree3.jpg');
+background-position: center;  
+background-repeat: no-repeat;
+/*background-size: auto;*/
+overflow:auto;  
+background-size: cover; 
+height:550px; 
+width:20%; 
+float:left;	
+}
+
+.divsubclass2{
+background-image: url('../images/pngtree.jpg');
+background-size: cover;
+height:420px; 
+width:80%;
+overflow:auto;
+float:left;		
+color: black ;
+}
+
+.divsubclass3{
+position:sticky;
+top:0;
+height:60px;
+width:80%;	
+color: black ;
+}
+.divsubclass4{
+overflow:auto;
+height:360px;
+}
+.divsubclass5{
+background-color:#E6E6FA;
+height:130px;
+overflow:auto;
+width:80%	;
+color : black ;
+}
+.divsubclass6{
+background-color:lightcyan;
+background-image: radial-gradient(lightcyan,blue);
+color: black ;
+width:100%; 
+clear:both;	
+}
+table{
+	font-size:25px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+/*
+.mytable{
+	table-layout:fixed;
+	width:100%;
+}*/
+p{
+font-family:cursive;	
+}
+header{
+	position:relative;
+}
+h2{
+	color:white;
+}
+h3{
+	font-family:cursive;
+}
+b{
+	font-family:verdana;
+}
+th{
+	color:white;
+	background-color:#04AA6D;
+	background-color:#CCE7E7;
+    font-family: monospace;
+}
+td{
+	font-family:cursive;
+}
+tr:hover {
+	background-color:#CCE7E7;
+	}
+/*
+.btn{
+	background-color:none;
+	padding: 8px 16px;
+    font-size: 16px;
+	text-align: center;
+	transtition-duration:0.4s;
+	border:2px outset blue;
+}
+.btn:hover{
+	background-color:#1E90FF ;
+	color:white;
+}
+*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#1E90FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15pxpx;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
